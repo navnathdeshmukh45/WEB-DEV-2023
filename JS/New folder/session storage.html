@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Session Storage Example</title>
+</head>
+<body>
+    <h1>Session Storage Example</h1>
+    <p>Enter some data to store in the session storage:</p>
+    <input type="text" id="dataInput" placeholder="Enter data">
+    <button onclick="storeData()">Store Data</button>
+    <button onclick="retrieveData()">Retrieve Data</button>
+    <p id="result"></p>
+
+    <script>
+        // Function to store data in session storage
+        function storeData() {
+            const data = document.getElementById("dataInput").value;
+            if (data.trim() !== "") {
+                sessionStorage.setItem("userData", data);
+                document.getElementById("dataInput").value = "";
+                document.getElementById("result").textContent = "Data stored in session storage.";
+            }
+        }
+
+        // Function to retrieve data from session storage
+        function retrieveData() {
+            const storedData = sessionStorage.getItem("userData");
+            if (storedData) {
+                document.getElementById("result").textContent = "Data from session storage: " + storedData;
+            } else {
+                document.getElementById("result").textContent = "No data found in session storage.";
+            }
+        }
+    </script>
+</body>
+</html>

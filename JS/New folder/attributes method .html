@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+    const person = {
+    firstName: "PRIYA",
+    lastName: "DESHMUKH",
+    age: 20,
+     sayHello: function() {
+    console.log(`Hello, my name is ${this.firstName} ${this.lastName}`);
+  }
+    };
+
+    console.log(person.firstName); // Accessing attribute using dot notation
+    
+    console.log(person['firstName']); // Accessing attribute using bracket notation
+    
+    person.sayHello();
+
+    // alert(document.body.getAttribute('something'));
+    </script>
+</body>
+</html>
