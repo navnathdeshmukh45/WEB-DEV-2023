@@ -17,3 +17,12 @@ https://www.w3schools.com/css/default.asp
 
 
 https://developer.mozilla.org/en-US/docs/Web/CSS
+
+
+JAVASCRIPT 
+
+
+https://www.w3schools.com/js/default.asp
+
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
