@@ -1,0 +1,65 @@
+/* universal selector or asterisk  */
+*{
+    margin:0%;
+    padding:0%;
+}
+
+/* grouping selector */
+html,body{
+    width:100%;
+    height:100%;
+}
+
+.h1{
+    /* color */
+    color:rgb(10, 7, 7);
+
+     /* background-color */
+    background-color:blanchedalmond;
+
+    /* text */
+    text-align: center; 
+    text-decoration: red line-through;
+    font-weight: normal 200;
+ /* text-align:right;
+    text-align:left; */
+    
+    /* boder */
+    /* border: dotted; */
+    /* border:dashed; */
+    /* border: solid ; */
+    /* border:double; */
+    /* border: groove; */
+    /* border:ridge; */
+    /* border:insert; */
+    /* border:outset; */
+
+    /* margin */
+    margin:10%;
+    /* margin-top: 10%;
+    margin-bottom:10%;
+    margin-left: 10%;
+    margin-right: 10%; */
+
+    /* padding */
+    padding:10%;
+/*  padding-top:10%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+    padding-right: 10%; */
+
+
+}
+
+ /* .id{
+    color:blue;
+    background-color: aqua;
+ } */
+ /* #class{
+    color:red;
+    background-color: aqua;
+ } */
+ /* #box{
+    background-color: blue;
+    color:rgb(255, 253, 253);
+ } */
