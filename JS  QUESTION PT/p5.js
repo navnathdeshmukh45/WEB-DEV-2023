@@ -1,3 +1,4 @@
+// object two show the output
 const user1={
     id:101,
     name:"Navnath",
@@ -9,4 +10,4 @@ const user1={
      age:20,
 };
 console.log(user1);
-console.log(user2);
+console.log(user2['name']);
