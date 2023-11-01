@@ -29,16 +29,16 @@ console.log("OR (||): x || y =", x || y);
 console.log("NOT (!): !x =", !x);
 
 // Assignment operators
-// let result = 0;
-// console.log("\nAssignment Operators:");
-// result += 5; // Equivalent to result = result + 5
-// console.log("Add and assign: result += 5 =", result);
-// result -= 3; // Equivalent to result = result - 3
-// console.log("Subtract and assign: result -= 3 =", result);
-// result *= 2; // Equivalent to result = result * 2
-// console.log("Multiply and assign: result *= 2 =", result);
-// result /= 4; // Equivalent to result = result / 4
-// console.log("Divide and assign: result /= 4 =", result);
+let result = 0;
+console.log("\nAssignment Operators:");
+result += 5; // Equivalent to result = result + 5
+console.log("Add and assign: result += 5 =", result);
+result -= 3; // Equivalent to result = result - 3
+console.log("Subtract and assign: result -= 3 =", result);
+result *= 2; // Equivalent to result = result * 2
+console.log("Multiply and assign: result *= 2 =", result);
+result /= 4; // Equivalent to result = result / 4
+console.log("Divide and assign: result /= 4 =", result);
 
 // Increment and Decrement operators
 // console.log("\nIncrement and Decrement Operators:");
