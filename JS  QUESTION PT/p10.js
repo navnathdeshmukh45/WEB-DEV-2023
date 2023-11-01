@@ -41,9 +41,9 @@ result /= 4; // Equivalent to result = result / 4
 console.log("Divide and assign: result /= 4 =", result);
 
 // Increment and Decrement operators
-// console.log("\nIncrement and Decrement Operators:");
-// let count = 5;
-// count++; // Increment count by 1
-// console.log("Increment: count++ =", count);
-// count--; // Decrement count by 1
-// console.log("Decrement: count-- =", count);
+console.log("\nIncrement and Decrement Operators:");
+let count = 5;
+count++; // Increment count by 1
+console.log("Increment: count++ =", count);
+count--; // Decrement count by 1
+console.log("Decrement: count-- =", count);
