@@ -20,13 +20,13 @@ console.log("Greater than or equal to: a >= b =", a >= b);
 console.log("Less than or equal to: a <= b =", a <= b);
 
 // // Logical operators
-// let x = true;
-// let y = false;
+let x = true;
+let y = false;
 
-// console.log("\nLogical Operators:");
-// console.log("AND (&&): x && y =", x && y);
-// console.log("OR (||): x || y =", x || y);
-// console.log("NOT (!): !x =", !x);
+console.log("\nLogical Operators:");
+console.log("AND (&&): x && y =", x && y);
+console.log("OR (||): x || y =", x || y);
+console.log("NOT (!): !x =", !x);
 
 // Assignment operators
 // let result = 0;
