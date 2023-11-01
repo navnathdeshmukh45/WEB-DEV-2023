@@ -63,9 +63,6 @@
 // console.log(`Bitwise Zero-Fill Right Shift: ${zeroFillShift}`); 
 
 
-
-
-
 // // Increment and Decrement operators
 // console.log("\nIncrement and Decrement Operators:");
 // let count = 5;
