@@ -40,6 +40,32 @@
 // result /= 4; // Equivalent to result = result / 4
 // console.log("Divide and assign: result /= 4 =", result);
 
+// bitwise operator 
+
+// let num1 = 5;   
+// let num2 = 3;   
+// let resultAND = num1 & num2;
+// console.log(`Bitwise AND: ${resultAND}`); // Output: 1 
+// let resultOR = num1 | num2;
+// console.log(`Bitwise OR: ${resultOR}`); // Output: 7 
+// let resultXOR = num1 ^ num2;
+// console.log(`Bitwise XOR: ${resultXOR}`); // Output: 6 
+// let resultNOT = ~num1;
+// console.log(`Bitwise NOT: ${resultNOT}`); // Output: -6 
+// let num3 = 8;  
+// let shiftLeft = num3 << 2;
+// console.log(`Bitwise Left Shift: ${shiftLeft}`); // 
+// let num4 = 32;  
+// let shiftRight = num4 >> 2;
+// console.log(`Bitwise Right Shift: ${shiftRight}`); 
+// let num5 = -8; 
+// let zeroFillShift = num5 >>> 2;
+// console.log(`Bitwise Zero-Fill Right Shift: ${zeroFillShift}`); 
+
+
+
+
+
 // // Increment and Decrement operators
 // console.log("\nIncrement and Decrement Operators:");
 // let count = 5;
@@ -74,6 +100,16 @@
 // console.log(x); // Output: 7
 
 // void operator 
-let result = void 0;
-console.log(result); // Output: undefined
+// let result = void 0;
+// console.log(result); // Output: undefined
+
+// in operator 
+// let person = { name: "Priya", age: 20 };
+// let hasName = "name" in person;
+// console.log(hasName); // Output: true
+
+// delete  operator 
+// let person = { name: "Bob", age: 25 };
+// delete person.age;
+// console.log(person.age); // Output: undefined
 
