@@ -11,13 +11,13 @@ console.log("Modulus: a % b =", a % b);
 console.log("Exponentiation: a ** b =", a ** b);
 
 // // Comparison operators
-// console.log("\nComparison Operators:");
-// console.log("Equal to: a == b =", a == b);
-// console.log("Not equal to: a != b =", a != b);
-// console.log("Greater than: a > b =", a > b);
-// console.log("Less than: a < b =", a < b);
-// console.log("Greater than or equal to: a >= b =", a >= b);
-// console.log("Less than or equal to: a <= b =", a <= b);
+console.log("\nComparison Operators:");
+console.log("Equal to: a == b =", a == b);
+console.log("Not equal to: a != b =", a != b);
+console.log("Greater than: a > b =", a > b);
+console.log("Less than: a < b =", a < b);
+console.log("Greater than or equal to: a >= b =", a >= b);
+console.log("Less than or equal to: a <= b =", a <= b);
 
 // // Logical operators
 // let x = true;
